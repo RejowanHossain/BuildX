@@ -1,0 +1,105 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .content-right-one {
+        margin-left: -100px;
+    }
+
+    .icon {
+        margin-right: 11px;
+    }
+
+    .search-icon {
+        margin-right: 5px;
+    }
+
+    .hero-area {
+        min-height: 550px;
+    }
+
+    .hero-content {
+        padding-top: 147px;
+    }
+
+    .cta-content p {
+        font-size: 24px;
+    }
+
+    .btn-cta {
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .content-right-one {
+        margin-left: -150px;
+    }
+
+    .icon {
+        margin-right: 11px;
+    }
+
+    .cta-content p {
+        font-size: 24px;
+    }
+
+    .btn-cta {
+        margin-left: -55px;
+    }
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .top-area {
+        display: none;
+    }
+
+    .hero-content h2 {
+        font-size: 37px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .cta-content p {
+        font-size: 19px;
+    }
+
+    .btn-cta {
+        margin-left: 46px;
+    }
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .top-area {
+        display: none;
+    }
+
+    .cta-content p {
+        text-align: center;
+    }
+
+    .button.btn-cta {
+        text-align: center;
+    }
+
+    .btn-cta {
+        margin-left: 0px;
+    }
+}

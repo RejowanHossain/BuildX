@@ -1,0 +1,210 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Roboto:400,500&display=swap');
+
+/* Defult CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Typograpgy */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Main CSS */
+
+/* Top area starts */
+.top-area {
+    background: #f5f5f5;
+}
+
+.content p {
+    color: #696969;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.icon img {
+    height: 16px;
+    margin-bottom: 6px;
+}
+
+.content {
+    padding: 20px 0 0;
+}
+
+.content-right-two {
+    margin-left: 45px;
+}
+
+/*Top area ends */
+
+/* Navigation starts */
+.navbar-brand {
+    margin-left: -15px;
+    padding: 15px 0 28px 0;
+}
+
+.navbar ul {
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    margin-top: 11px;
+    padding-right: 11px;
+}
+
+.navbar ul li a {
+    font-weight: 600;
+    color: #3b404f;
+    padding-right: 28px;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fab702;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3b404f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fab702;
+}
+
+.search-icon {
+    margin-top: 11px;
+    margin-right: -15px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+/* Navigation ends */
+
+/* hero starts */
+.hero-area {
+    background: url(../img/hero.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 693px;
+    position: relative;
+}
+
+.hero-content {
+    margin-left: 20px;
+    padding-top: 193px;
+}
+
+.hero-area::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.hero-content h2 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    color: #fff;
+    font-size: 15px;
+    padding-right: 183px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.button a {
+    padding: 23px 50px;
+    background: #fab702;
+    color: #fff;
+    transition: .5s;
+}
+
+.button a:hover {
+    color: #888;
+    text-decoration: none;
+}
+
+/* hero ends */
+
+/* cta starts */
+.cta-area {
+    background: #fab702;
+    min-height: 116px;
+}
+
+.cta-content {
+    margin-top: 35px;
+}
+
+.cta-content p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.cta-content span a {
+    color: #000;
+    font-style: italic;
+}
+
+.cta-content span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-cta {
+    margin-left: 62px;
+    padding-bottom: 25px;
+}
+
+.btn-cta a {
+    background: #fff;
+    color: #fab702;
+}
+
+
+
+/* cta ends */
